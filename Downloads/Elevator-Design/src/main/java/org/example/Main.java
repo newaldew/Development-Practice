@@ -13,8 +13,6 @@ public class Main {
 		ProcessJobWorker processJobWorker = new ProcessJobWorker(elevator);
 		Thread t2 = new Thread(processJobWorker);
 		t2.start();
-//		int cnt=0;
-//		List<Request> listOfRequest=new ArrayList<>();
 
 		while(true){
 			Scanner input1 = new Scanner(System.in);
